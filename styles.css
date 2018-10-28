@@ -1,0 +1,92 @@
+body {
+  background-color:black;
+  padding: 100px;
+  text-align: center;
+}
+p {
+  color: white;
+}
+h1 {
+  color: white;
+}
+h3 {
+  color: white;
+}
+a {
+  color: white;
+}
+
+.header
+{
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.welcome {
+  font-size: 20px;
+  line-height: 180%;
+}
+.infotext {
+  line-height: 180%;
+}
+.loggor
+{
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align:center;
+}
+
+.logga {
+  width: 30%;
+  height: auto;
+  padding: 10px;
+  border: 4px solid black;
+  background-color: white;
+}
+
+.loggor img {
+  width: 100%;
+  height: 50px;
+}
+
+.forelasning {
+    align-items: center;
+
+}
+  .forelasning img {
+    width: 40%;
+    height: auto;
+  }
+
+.bankett{
+  align-items: center;}
+
+
+  .bankett img {
+    width: 40%;
+    height: auto;
+  }
+
+@media (max-width: 600px) {
+  body {
+  background-color:black;
+  text-align: center;
+  padding: 0px;
+}
+.forelasning img {
+  width: 100%;
+  height: auto;
+}
+.bankett img {
+  width: 100%;
+  height: auto;
+}
+}
